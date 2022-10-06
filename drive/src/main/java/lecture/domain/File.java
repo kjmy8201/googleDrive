@@ -57,6 +57,11 @@ public class File  {
 
 
 
+    public void delete(){
+        FileDeleted fileDeleted = new FileDeleted(this);
+        fileDeleted.publishAfterCommit();
+
+    }
 
 
 
