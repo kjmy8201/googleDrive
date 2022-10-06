@@ -10,6 +10,9 @@ import lombok.*;
 public class Fileuploaded extends AbstractEvent {
 
     private Long id;
+    private String name;
+    private String type;
+    private Long size;
 
     public Fileuploaded(File aggregate){
         super(aggregate);
