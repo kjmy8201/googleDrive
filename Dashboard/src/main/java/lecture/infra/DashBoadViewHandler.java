@@ -14,7 +14,6 @@ import java.util.Optional;
 @Service
 public class DashBoadViewHandler {
 
-
     @Autowired
     private DashBoadRepository dashBoadRepository;
 
@@ -35,6 +34,7 @@ public class DashBoadViewHandler {
             e.printStackTrace();
         }
     }
+
 
 
 

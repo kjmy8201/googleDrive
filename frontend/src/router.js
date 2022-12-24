@@ -6,6 +6,8 @@ Vue.use(Router);
 
 
 
+import DashBoadView from "./components/DashBoadView"
+import DashBoadViewDetail from "./components/DashBoadViewDetail"
 import FileManager from "./components/listers/FileCards"
 import FileDetail from "./components/listers/FileDetail"
 
@@ -22,6 +24,16 @@ export default new Router({
     base: process.env.BASE_URL,
     routes: [
 
+            {
+                path: '/dashBoads',
+                name: 'DashBoadView',
+                component: DashBoadView
+            },
+            {
+                path: '/dashBoads/:id',
+                name: 'DashBoadViewDetail',
+                component: DashBoadViewDetail
+            },
             {
                 path: '/files',
                 name: 'FileManager',

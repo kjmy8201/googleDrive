@@ -38,7 +38,7 @@
                     @click="save"
                     v-else
             >
-                Save
+                Upload
             </v-btn>
             <v-btn
                     color="deep-purple lighten-2"

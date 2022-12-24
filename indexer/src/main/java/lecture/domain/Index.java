@@ -7,11 +7,13 @@ import java.util.List;
 import lombok.Data;
 import java.util.Date;
 
+
 @Entity
 @Table(name="Index_table")
 @Data
 
 public class Index  {
+
 
     
     @Id
